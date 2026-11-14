@@ -1,18 +1,18 @@
 name: TECH2
 channels:
   - conda-forge
-  - nodefaults
 dependencies:
-  - python=3.14.7
+  - notebook=7.6.2
+  - jupyter_core=5.9.1
+  - ipython=9.16.1
+  - jupyter_client=8.9.1
   - numpy=2.5.2
+  - jupyter_server=2.21.0
+  - openpyxl=3.1.5
   - scipy=1.18.0
   - matplotlib=3.11.1
+  - python=3.14.7
   - pandas=3.0.5
-  - openpyxl=3.1.5
-  - notebook=7.6.2
-  - ipython=9.16.1
-  - ipykernel=7.3.0
-  - jupyter_server=2.21.0
-  - jupyter_client=8.9.1
-  - jupyter_core=5.9.1
   - ruff=0.16.7
+  - ipykernel=7.3.0
+prefix: /Users/leosmacbook/miniforge3/envs/TECH2
